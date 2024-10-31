@@ -1,0 +1,33 @@
+{
+  "name": "next-comp-cli",
+  "version": "1.0.4",
+  "description": "a cli to generate next.js components with typescript support",
+  "main": "dist/cli.js",
+  "bin": {
+    "gnc": "dist/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "component",
+    "generator",
+    "cli"
+  ],
+  "author": "Sanyam",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.8.5",
+    "typescript": "^5.6.3"
+  }
+}
