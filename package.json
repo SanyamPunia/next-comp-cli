@@ -2,6 +2,10 @@
   "name": "next-comp-cli",
   "version": "1.1.0",
   "description": "a cli to generate next.js components with typescript support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanyamPunia/next-comp-cli"
+  },
   "main": "dist/cli.js",
   "bin": {
     "gnc": "dist/cli.js"
